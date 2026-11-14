@@ -109,6 +109,10 @@ PHP                                                                        NEWS
   . Fixed stack buffer overflow with long connection user names, passwords,
     charsets, or roles. (Ilia Alshanetsky)
 
+- PCRE:
+  . Fixed \C being allowed in patterns enabling UTF mode with (*UTF) instead
+    of the u modifier. (Jorg Sowa)
+
 - SOAP:
   . Fixed bug GH-25267 (NULL dereference in to_xml_any() with integer key).
     (lazerg)
